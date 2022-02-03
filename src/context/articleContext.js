@@ -1,4 +1,3 @@
-/*
 import React, { createContext, useState } from 'react';
 
 export const ArticleContext = createContext();
@@ -23,4 +22,3 @@ const ArticleProvider = ({ children }) => {
 };
 
 export default ArticleProvider;
-*/

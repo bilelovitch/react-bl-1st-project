@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import Article from './components/Article';
-//import { ArticleContext } from './context/articleContext';
+import { ArticleContext } from './context/articleContext';
 import './style.css';
 
-/**/
+/*
 const Articles = () => {
   const [articles, setArticles] = useState([
     { id: 1, title: 'post 1', body: 'Quisque cursus, metus vitae pharetra 1' },
@@ -20,7 +21,7 @@ const Articles = () => {
   );
 };
 
-/*
+*/
 const Articles = () => {
   const { articles } = useContext(ArticleContext);
 
@@ -32,5 +33,5 @@ const Articles = () => {
     </div>
   );
 };
-*/
+
 export default Articles;

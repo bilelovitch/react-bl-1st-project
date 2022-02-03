@@ -2,10 +2,12 @@ import React from 'react';
 import './style.css';
 
 import React, { Fragment } from 'react';
-//import ArticleProvider from './context/articleContext';
+import ArticleProvider from './context/articleContext';
 import Articles from './Articles';
 import AddArticle from './components/AddArticle';
-/*
+
+/* */
+
 export default function App() {
   return (
     <ArticleProvider>
@@ -14,8 +16,8 @@ export default function App() {
     </ArticleProvider>
   );
 }
-*/
 
+/*
 export default function App() {
   return (
     <Fragment>
@@ -24,7 +26,7 @@ export default function App() {
     </Fragment>
   )
 }
-/*
+
 export default function App() {
   return (
     <div>
